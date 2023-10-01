@@ -22,8 +22,6 @@ export default function useMultistep({ title, steps }: useMultistepProps) {
     })
   }
 
-  // const goto = (index: number) => setCurrentStepIndex(index)
-
   return {
     title,
     steps,
